@@ -1,0 +1,39 @@
+.nav-bar {
+  background-color: rgb(39, 38, 38);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.signUp {
+  background-color: #fdfbfb;
+  color: #c3a71d;
+  height: 40px;
+  width: 80px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-ul {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fdfbfb;
+}
+.nav-ul li {
+  list-style: none;
+  color: #c3a71d;
+  cursor: pointer;
+}
