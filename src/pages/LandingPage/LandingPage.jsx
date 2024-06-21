@@ -1,4 +1,6 @@
 // import { useState } from 'react'
+
+import { Link } from "react-router-dom";
 import "./LandingPage.css";
 import Navbar from "../../components/Navbar/Navbar";
 import ReviewCard from "../../components/ReviewCard/ReviewCard";
@@ -60,7 +62,11 @@ function LandingPage() {
           STUDENT SERVICES
         </h1>
         <p style={{ color: "#fff" }}>WE ARE GLAD TO HAVE YOU HERE WITH US.</p>
-        <button className="login-btn">LOGIN</button>
+        <button className="login-btn">
+          <Link style={{ textDecoration: "none",  color: "#121212" }} to="/loggedIn">
+            LOGIN
+          </Link>
+        </button>
       </div>
 
       <div className="section-2">

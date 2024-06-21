@@ -22,6 +22,11 @@
   border-radius: 5px;
   font-weight: 700;
   cursor: pointer;
+  text-decoration: none;
+}
+.links {
+  color: #c3a71d;
+  text-decoration: none;
 }
 
 .nav-ul {
