@@ -1,0 +1,24 @@
+.nav-bar {
+  background-color: rgb(39, 38, 38);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logo-name {
+  color: #fff;
+}
+
+.signUp {
+  background-color: #fdfbfb;
+  color: #121212;
+  height: 40px;
+  width: 80px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
