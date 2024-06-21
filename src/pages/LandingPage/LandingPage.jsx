@@ -1,0 +1,80 @@
+// import { useState } from 'react'
+import "./LandingPage.css";
+import Navbar from "../../components/Navbar/Navbar";
+import ReviewCard from "../../components/ReviewCard/ReviewCard";
+import Footer from "../../components/Footer/Footer";
+
+function LandingPage() {
+  const clients = [
+    {
+      name: "Phandoh",
+      profilePic: "src/assets/Images/boy.png",
+      review: "Nice website",
+      description: "Description",
+      key: 1,
+    },
+    {
+      name: "Phandoh",
+      profilePic: "src/assets/Images/boy.png",
+      review: "Nice website",
+      description: "Description",
+      key: 2,
+    },
+    {
+      name: "Phandoh",
+      profilePic: "src/assets/Images/boy.png",
+      review: "Nice website",
+      description: "Description",
+      key: 3,
+    },
+    {
+      name: "Phandoh",
+      profilePic: "src/assets/Images/boy.png",
+      review: "Nice website",
+      description: "Description",
+      key: 4,
+    },
+    {
+      name: "Phandoh",
+      profilePic: "src/assets/Images/boy.png",
+      review: "Nice website",
+      description: "Description",
+      key: 5,
+    },
+    {
+      name: "Phandoh",
+      profilePic: "src/assets/Images/boy.png",
+      review: "Nice website",
+      description: "Description",
+      key: 6,
+    },
+  ];
+
+  return (
+    <div>
+      <Navbar />
+
+      <div className="section-1">
+        <h1 style={{ fontSize: 54, color: "#fff" }}>
+          WELCOME TO OUR <br />
+          STUDENT SERVICES
+        </h1>
+        <p style={{ color: "#fff" }}>WE ARE GLAD TO HAVE YOU HERE WITH US.</p>
+        <button className="login-btn">LOGIN</button>
+      </div>
+
+      <div className="section-2">
+        <h1 style={{ marginLeft: 100 }}>Client Reviews</h1>
+        <div className="cards">
+          {clients.map((client) => (
+            <ReviewCard client={client} key={client.key} />
+          ))}
+        </div>
+      </div>
+
+      <Footer />
+    </div>
+  );
+}
+
+export default LandingPage;

@@ -1,0 +1,40 @@
+.section-1 {
+  width: 100%;
+  height: 525px;
+  background-image: url("src/assets/Images/background-2.jpg");
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-btn {
+  background-color: #fdfbfb;
+  color: #121212;
+  height: 40px;
+  width: 80px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.section-2 {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.cards {
+  padding-left: 100px;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  column-gap: 60px;
+  row-gap: 30px;
+}
