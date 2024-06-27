@@ -85,6 +85,9 @@
     width: 100%;
     font-size: 12px;
   }
+  .register-info span{
+    display: block;
+  }
   .contact-btn {
     font-size: 12px;
   }

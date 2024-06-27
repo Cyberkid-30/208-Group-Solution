@@ -93,8 +93,8 @@ function LandingPage2() {
       </div>
 
       <div className="register-info">
-        <p style={{ color: "#c3a71d" }}>
-          Want to register a new course? Click the button below to register.
+        <p style={{ color: "#c3a71d", textWrap: "wrap" }}>
+          Want to register a new course?  <span>Click the button below to register.</span>
         </p>
         <button className="contact-btn">REGISTER</button>
       </div>
