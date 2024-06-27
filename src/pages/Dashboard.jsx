@@ -4,7 +4,7 @@ function Dashboard() {
   return (
     <>
       <Navbar2 />
-      <h1>Landing Page</h1>
+      <h1>Dashboard</h1>
     </>
   );
 }

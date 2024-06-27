@@ -63,14 +63,17 @@ function LandingPage() {
         </h1>
         <p style={{ color: "#fff" }}>WE ARE GLAD TO HAVE YOU HERE WITH US.</p>
         <button className="login-btn">
-          <Link style={{ textDecoration: "none",  color: "#121212" }} to="/loggedIn">
+          <Link
+            style={{ textDecoration: "none", color: "#121212" }}
+            to="/loggedIn"
+          >
             LOGIN
           </Link>
         </button>
       </div>
 
       <div className="section-2">
-        <h1 style={{ marginLeft: 100 }}>Client Reviews</h1>
+        <h1>Client Reviews</h1>
         <div className="cards">
           {clients.map((client) => (
             <ReviewCard client={client} key={client.key} />

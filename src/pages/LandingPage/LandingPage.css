@@ -27,15 +27,13 @@
 
 .section-2 {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding: 50px 100px 100px;
 }
 
 .cards {
-  padding-left: 100px;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: repeat(3, 250px);
-  column-gap: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
   row-gap: 30px;
 }
