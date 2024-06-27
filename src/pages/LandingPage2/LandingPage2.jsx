@@ -63,7 +63,7 @@ function LandingPage2() {
           </div>
 
           <img
-            style={{ width: "500px" }}
+            className="image"
             src="src\assets\Images\ContactTutor.png"
             alt=""
           />
@@ -71,7 +71,7 @@ function LandingPage2() {
 
         <div className="wrapper-1">
           <img
-            style={{ width: "500px" }}
+            className="image"
             src="src\assets\Images\announcements.png"
             alt=""
           />

@@ -33,3 +33,9 @@
   font-size: 0.9em;
   color: #c3a71d;
 }
+
+@media (max-width: 600px) {
+  .social-links a {
+    font-size: 14px;
+  }
+}

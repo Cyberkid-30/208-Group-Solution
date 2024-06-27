@@ -2,3 +2,9 @@
   height: 150px;
   width: 400px;
 }
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}

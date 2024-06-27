@@ -57,7 +57,7 @@ function LandingPage() {
       <Navbar />
 
       <div className="section-1">
-        <h1 style={{ fontSize: 54, color: "#fff" }}>
+        <h1 className="welcome-text">
           WELCOME TO OUR <br />
           STUDENT SERVICES
         </h1>

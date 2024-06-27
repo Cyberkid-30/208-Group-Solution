@@ -1,10 +1,9 @@
 .main-section {
   width: 100%;
   padding: 80px 50px;
-  /* background-color: pink; */
+  background-color: #fff;
 }
 .contact-tutor {
-  /* background-color: pink; */
   width: 500px;
   height: 320px;
   display: flex;
@@ -21,8 +20,8 @@
   border-radius: 7px;
   cursor: pointer;
 }
-.contact-btn:active{
-    opacity: 0.6;
+.contact-btn:active {
+  opacity: 0.6;
 }
 .wrapper-1 {
   margin-top: 100px;
@@ -51,4 +50,42 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+.image {
+  width: 500px;
+}
+
+@media (max-width: 600px) {
+  .main-section {
+    padding: 50px;
+    width: 100%;
+  }
+  .wrapper-1 {
+    grid-template-columns: 1fr;
+    margin: 50px 0;
+  }
+  .wrapper-1 .image {
+    width: 340px;
+  }
+  .contact-tutor {
+    width: 340px;
+    font-size: 15px;
+  }
+  .spacing {
+    text-align: left;
+    margin-bottom: 50px;
+    grid-row: 1;
+    grid-column: 1;
+    padding: 0;
+  }
+  .appointments {
+    grid-template-columns: 1fr;
+  }
+  .register-info {
+    width: 100%;
+    font-size: 12px;
+  }
+  .contact-btn {
+    font-size: 12px;
+  }
 }
