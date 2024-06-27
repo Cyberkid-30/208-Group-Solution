@@ -65,10 +65,10 @@
     margin: 50px 0;
   }
   .wrapper-1 .image {
-    width: 340px;
+    width: 100%;
   }
   .contact-tutor {
-    width: 340px;
+    width: 100%;
     font-size: 15px;
   }
   .spacing {
