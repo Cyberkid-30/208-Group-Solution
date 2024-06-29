@@ -1,11 +1,14 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import "./LandingPage.css";
+import { useNavigate } from "react-router-dom";
 
 const Modal = ({ show, handleClose }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+
+  const navigate = useNavigate();
 
   const handleUsernameChange = (e) => {
     setUsername(e.target.value);
@@ -25,7 +28,7 @@ const Modal = ({ show, handleClose }) => {
       // Successful login
       setError("");
       console.log("Login successful");
-      // Redirect to dashboard or another page
+      navigate("/dashboard");
     } else {
       // Unsuccessful login
       setError("Invalid username or password");
